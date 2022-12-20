@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:layout_flutter/components/box_card.dart';
+import 'package:layout_flutter/components/color_dot.dart';
 import 'package:layout_flutter/components/sections/header.dart';
+import 'package:layout_flutter/components/sections/recent_activity.dart';
+import 'package:layout_flutter/themes/theme_colors.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -12,7 +15,7 @@ class HomePage extends StatelessWidget {
         children: const [
           Header(),
           BoxCard(
-            boxContent: Text("Ola Mundo"),
+            boxContent: RecentActivity()
           ),
         ],
       ),
