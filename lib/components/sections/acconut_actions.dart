@@ -68,7 +68,7 @@ class _AcconutActionsContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 72,
+      width: 80,
       child: Column(
         children: [
           Padding(
