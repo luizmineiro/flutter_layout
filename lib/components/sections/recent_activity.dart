@@ -82,7 +82,8 @@ class _RecentActivityContent extends StatelessWidget {
           child: ContentDivision(),
         ),
         const Text(
-            'Esse mês você gastou \$1500.00 com jogos. Tente abaixar esse custo!'),
+          'Esse mês você gastou \$1500.00 com jogos. Tente abaixar esse custo!',
+        ),
         TextButton(
           onPressed: () {},
           child: const Text(
